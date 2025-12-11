@@ -1,4 +1,4 @@
-# MACHINE LEARNING AGRO PROJECT
+# MACHINE LEARNING CO2 PROJECT
 Este proyecto se basa en un análisis de las emisiones de dióxido de carbono (CO2) vinculadas a la industria agroalimentaria, que desempeña un papel crucial al contribuir con el 62% de las emisiones globales de CO2. El objetivo primordial radica en anticipar las emisiones a futuro de CO2 y determinar si influye o no en el cambio climático. Para alcanzar este propósito, se enfoca en dos variables fundamentales: las emisiones totales de CO2, representada por el label 'total_emission', y la temperatura promedio, representada por el label, 'Average Temperature °C'.
 
 La adopción de estas variables persigue generar una comprensión más a fondo y efectiva de la dinámica de emisiones en el ámbito agroalimentario y su relación con los cambios climáticos. Se busca identificar patrones y relaciones entre las emisiones y las variaciones térmicas. A partir de estos hallazgos, se aspira a plantear y descubrir vías potenciales de mitigación, delineando acciones concretas que puedan contribuir a abordar eficazmente esta problemática ambiental.
