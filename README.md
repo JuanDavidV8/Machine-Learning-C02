@@ -1,23 +1,23 @@
 # MACHINE LEARNING CO2 PROJECT
-Este proyecto se basa en un análisis de las emisiones de dióxido de carbono (CO2) vinculadas a la industria agroalimentaria, que desempeña un papel crucial al contribuir con el 62% de las emisiones globales de CO2. El objetivo primordial radica en anticipar las emisiones a futuro de CO2 y determinar si influye o no en el cambio climático. Para alcanzar este propósito, se enfoca en dos variables fundamentales: las emisiones totales de CO2, representada por el label 'total_emission', y la temperatura promedio, representada por el label, 'Average Temperature °C'.
+This project is based on an analysis of carbon dioxide (CO2) emissions linked to the agri-food industry, which plays a crucial role by contributing 62% of global CO2 emissions. The primary objective lies in anticipating future CO2 emissions and determining whether or not it influences climate change. To achieve this purpose, it focuses on two fundamental variables: the total CO2 emissions, represented by the label 'total_emission', and the average temperature, represented by the label, 'Average Temperature °C'.
 
-La adopción de estas variables persigue generar una comprensión más a fondo y efectiva de la dinámica de emisiones en el ámbito agroalimentario y su relación con los cambios climáticos. Se busca identificar patrones y relaciones entre las emisiones y las variaciones térmicas. A partir de estos hallazgos, se aspira a plantear y descubrir vías potenciales de mitigación, delineando acciones concretas que puedan contribuir a abordar eficazmente esta problemática ambiental.
+The adoption of these variables seeks to generate a more in-depth and effective understanding of the dynamics of emissions in the agri-food field and its relationship with climate changes. The aim is to identify patterns and relationships between emissions and thermal variations. Based on these findings, we aim to propose and discover potential mitigation pathways, outlining concrete actions that can contribute to effectively addressing this environmental problem.
 
-La metodología involucra análisis estadísticos avanzados y técnicas de modelado predictivo, aprovechando herramientas de Machine Learning para anticipar los futuros escenarios de emisiones de CO2. Este análisis se muestra como un instrumento importante para estimar los efectos del aumento de emisiones en el sistema climático global y orientar la toma de decisiones informadas.
+The methodology involves advanced statistical analysis and predictive modeling techniques, taking advantage of Machine Learning tools to anticipate future CO2 emissions scenarios. This analysis is shown to be an important instrument to estimate the effects of increased emissions on the global climate system and guide informed decision-making.
 
-Este proyecto persigue comprender y proyectar las emisiones de CO2 en la industria agroalimentaria, a la vez que busca conceder mayores herramientas a los tomadores de decisiones con información crucial para encarar desafíos ambientales críticos y fomentar prácticas que tengan como objetivo un futuro sostenible.
+This project seeks to understand and project CO2 emissions in the agri-food industry, while seeking to provide decision makers with greater tools with crucial information to address critical environmental challenges and promote practices that aim for a sustainable future.
 
-## Contexto Empresarial
-Con el paso de los años, las emisiones de CO2 han experimentado un incremento constante, a la par que la temperatura promedio en cada continente ha seguido una tendencia al alza. Esta dinámica ascendente se ha mantenido a lo largo del tiempo.
+## Business Context
+Over the years, CO2 emissions have experienced a constant increase, while the average temperature on each continent has followed an upward trend. This upward dynamic has been maintained over time.
 
-Se tienen registros desde el año 1990 hasta el año 2020 en cada una de las variables que comprenden el data set.
+There are records from 1990 to 2020 in each of the variables that make up the data set.
 
-Deseamos estimar los efectos futuros de las emisiones para poder tomar decisiones referentes a la prevención y como se pueden disminuir los efectos del CO2 y así encarar de mejor forma los desafios ambientales actuales como el cambio climatico.
+We wish to estimate the future effects of emissions in order to make decisions regarding prevention and how the effects of CO2 can be reduced and thus better address current environmental challenges such as climate change.
 
-## Contexto Analítico: 
-Se tiene un data set en archivo tipo CSV llamado "Agrofood_co2_emission.csv" que se encuentra almacenado en la catpera de "Bases de datos" en Drive.
+## Analytical Context:
+There is a data set in a CSV file called "Agrofood_co2_emission.csv" that is stored in the "Databases" folder in Drive.
 
-El data set tiene variables de interés como:
+The data set has variables of interest such as:
 
 Total Population - Female
 Total Population - Male
@@ -25,31 +25,31 @@ total_emission
 Average Temperature °C
 Implemetaré las siguientes tareas con los datos:
 
-**1- Transformación y preparación de los datos para las visualizaciones.**
+**1- Transformation and preparation of data for visualizations.**
 
-**2- Limpieza del Dataset.**
+**2- Cleaning the Dataset.**
 
-**3- Creación de las visualizaciones para obtener insights y responder preguntas problema.**
+**3- Creation of visualizations to obtain insights and answer problem questions.**
 
-Las preguntas a responder los son las siguientes:
+The questions to answer are the following:
 
-- *¿Cuál ha sido el comportamiento de la temperatura promedio con el paso de los años?*
+- *What has been the behavior of the average temperature over the years?*
 
-- *¿Las emisiones de CO2 han aumentado, disminuido o se han mantenido estables en los últimos años?*
+- *Have CO2 emissions increased, decreased or remained stable in recent years?*
 
-- *¿Cuál es el continente que más aporta con emisiones de CO2 a lo largo de los años?*
+- *Which continent has contributed the most CO2 emissions over the years?*
 
-- *¿Cuál ha sido la variación de la temperatura en cada continente a lo largo de los años?*
+- *What has been the temperature variation on each continent over the years?*
 
-- *¿Existe una correlación entre la temperatura promedio y las emisiones de CO2?*
+- *Is there a correlation between average temperature and CO2 emissions?*
 
-- *¿La temperatura promedio presenta muchos valores atipicos?*
+- *Does the average temperature have many atypical values?*
 
-**4- Creación de nuevas variables y reducción de dimensionalidad utilizando la técnica PCA.**
+**4- Creation of new variables and dimensionality reduction using the PCA technique.**
 
-**5- Optimización de parámetros utilizando GridSearchCV.**
+**5- Parameter optimization using GridSearchCV.**
 
-**6- Entrenamiento del Dataset con los siguientes algoritmos.**
+**6- Training the Dataset with the following algorithms.**
 
 - Random Forest Regressor
 - GradientBoosting
